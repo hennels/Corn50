@@ -9,3 +9,24 @@ The data was produced using [COLMAP](https://colmap.github.io/) on a set of imag
 While the images used to produce the models were all taken indoors in the same environment you can see in the models that there is a difference in lighting between the models making the color look slightly different in each of the models.
 
 Each line of the `tassel.txt` file is a 0 or 1 representing the boolean value of whether the model with that index has a tassel and ear, 0 for no tassel/ear and 1 for having a tassel/ear.
+
+More details can be found in [this paper](https://ieeexplore.ieee.org/document/9341765).
+
+## Citation
+If you find this dataset useful, please cite:
+### Bibtex
+```
+@INPROCEEDINGS{9341765,
+    author={Nelson, Henry J. and Papanikolopoulos, Nikolaos},
+    booktitle={2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+    title={Learning Continuous Object Representations from Point Cloud Data},
+    year={2020},
+    volume={},
+    number={},
+    pages={2446-2451},
+    doi={10.1109/IROS45743.2020.9341765}
+}
+```
+
+### Plaintext
+H. J. Nelson and N. Papanikolopoulos, "Learning Continuous Object Representations from Point Cloud Data," 2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2020, pp. 2446-2451, doi: 10.1109/IROS45743.2020.9341765.
